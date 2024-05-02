@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-сайт аниме викторины HTML CSS JS | AnivitCode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">Anivit.</a>
+
+            <nav class="navbar">
+                <a href="#" class="active">Главная</a>
+                <a href="#">О нас</a>
+                <a href="#">Услуги</a>
+                <a href="#">Контакты</a>
+            </nav>
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Тест на анимешника</h1>
+                    <div class="quiz-header">
+                        <span>Ответь на вопросы, и мы узнаем являешься ты анимешником</span>
+                        <span class="header-score">Счет: 0 / 5</span>
+                    </div>
+
+                    <h2 class="questions-text"></h2>
+
+                    <div class="option-list">
+                        
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="questions-total">1 из 5 вопросов</span>
+                        <button class="next-btn">Следующий</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h2>Результат теста</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+
+                        <span class="score-text">Ваша оценка 0 из 5</span>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="tryAgain-btn">пробовать снова</button>
+                        <button class="goHome-btn"> на главную</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="home">
+                <div class="home-content">
+                    <h1>Аниме_викторина</h1>
+                    <p>Вам будут даны вопросы на проверку анимешника, ответь на все вопросы и мы узныем на сколько процентов вы анимешник!
+                    </p>
+                    <button class="start-btn">Начать тест</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="popup-info">
+        <h2>Руководство</h2>
+        <span class="info">1. Просто текс</span>
+        <span class="info">2. Просто текс</span>
+        <span class="info">3. Просто текс</span>
+        <span class="info">4. Просто текс</span>
+        <span class="info">5. Просто текс</span>
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">назад</button>
+            <a href="#" class="info-btn continue-btn">Начать тест</a>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
